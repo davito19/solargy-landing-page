@@ -19,9 +19,6 @@ export default function Footer() {
           <FaTwitter size={30} />
         </a>
       </div>
-      <p className="text-xs text-gray-400 mt-8 absolute bottom-2 left-1/2 transform -translate-x-1/2">
-        Página web desarrollada por David B. correo: odavid.vargas@udea.edu.co
-      </p>
     </footer>
   );
 }

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import ServicesSection from './components/ServicesSection';
 import AboutUsSection from './components/AboutUsSection';
 import ContactForm from './components/ContactForm';
+import AchievementsCarousel from './components/AchievementsCarousel';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
+        <AchievementsCarousel />
         <FeaturesSection />
         <ServicesSection/>
         <AboutUsSection/>
